@@ -2,6 +2,12 @@ dmenu - dynamic menu
 ====================
 dmenu is an efficient dynamic menu for X.
 
+Patches added
+------------
+* allow-color-font
+* border
+* alpha (require border)
+
 
 Requirements
 ------------
