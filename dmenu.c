@@ -687,6 +687,7 @@ setup(void)
 		x = info[i].x_org;
 		y = info[i].y_org + (topbar ? 0 : info[i].height - mh);
 		mw = info[i].width;
+
 		XFree(info);
 	} else
 #endif
@@ -704,7 +705,9 @@ setup(void)
 
 	/* create menu window */
 	swa.override_redirect = True;
-    swa.background_pixel  = 0; // change for alpha patch
+    swa.background_pixel  = 0;  // change for alpha patch
+    swa.border_pixel = 0;       // change for alpha patch
+	swa.colormap = cmap;        // change for alpha patch
 	swa.event_mask = ExposureMask | KeyPressMask | VisibilityChangeMask;
 	win = XCreateWindow(dpy, parentwin, x, y, mw, mh, border_width,
 	                    depth, CopyFromParent, visual,
