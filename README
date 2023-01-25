@@ -8,6 +8,7 @@ Patches added
 * border
 * alpha (require border)
 * passwords -> hidden user input
+* highlight
 
 
 Requirements
