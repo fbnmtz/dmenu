@@ -4,11 +4,11 @@ dmenu is an efficient dynamic menu for X.
 
 Patches added
 ------------
-* allow-color-font
-* border
-* alpha (require border)
-* passwords -> hidden user input
-* highlight
+* [allow-color-font](docs/allow-collor-font.md)
+* [border](docs/border.md)
+* [alpha](docs/alpha.md) (require border)
+* [passwords](docs/password.md) -> hidden user input
+* [highlight](docs/highlight.md)
 
 
 Requirements
